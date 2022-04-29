@@ -1,0 +1,60 @@
+.container {  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+}
+.btn {
+    padding: 10px;
+    width: 67px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: rgb(26, 24, 24);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 3px;
+    border: none;
+    cursor: pointer;
+}
+.main .input {
+    width: 200px;
+    padding: 42px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: right;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(194, 194, 194);
+}
+.del {
+    width: 140px;
+}
+.color {
+    background-color: rgb(230, 140, 51);
+    color: black;
+}
+.autor {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+    background-color: skyblue;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
